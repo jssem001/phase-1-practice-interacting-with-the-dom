@@ -18,6 +18,8 @@
   <h1 id='counter'>
     0
   </h1>
+  <h1>Simple Timer</h1>
+  <div id="timer">0</div>
   <button id='minus' > ➖ </button>
   <button id='plus' > ➕ </button>
   <button id='heart' > ❤️ </button>
@@ -27,19 +29,21 @@
 
   <div>
     <h3>Comments</h3>
-    <div id='list' class='comments'></div>
+    <div id='list' class='comments'><ul id="list2">
+      some comment
+    </ul></div>
 
     <h3>Leave a comment</h3>
 
     <form id="comment-form" action="">
       <input type='text' name="comment" id="comment-input" cols="30" rows="10">
       </br>
-      <button id='submit'>submit</button>
+      <button id='submit' type='submit'>submit</button>
     </form>
 
   </div>
 
-  <script src="js/index.min.js"></script>
+  <!-- <script src="js/index.min.js"></script> -->
   <script src="js/challenge.js"></script>
 </body>
 </html>
